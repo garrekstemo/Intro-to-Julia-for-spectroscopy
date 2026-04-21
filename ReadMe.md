@@ -1,6 +1,6 @@
 # Introduction to Julia for Spectroscopy
 
-Made with Julia version: 1.11.5
+Tested with Julia version: 1.12.6
 
 This short course is designed to introduce students to the Julia programming language applied to analysis for spectroscopy.
 It is intended for students who have never programmed before, or who have only done a little programming in another language.
@@ -17,8 +17,7 @@ Answers to the exercises and problems are in a separate repository, which is not
 
 Data needed for the exercises and problems is included in the `data` directory.
 
-The `src` directory contains scripts that generate data for activites, as well as a script that generates a pdf file from the markdown chapters.
-This directory needs to be cleaned up a bit....
+The `src` directory contains `make_pdf.sh`, a script that builds a combined PDF from the markdown chapters.
 
 
 ## Experiments
@@ -55,12 +54,12 @@ These can be covered in about a week, maybe a little more depending on how much 
 | Day | Chapter | Topics |
 |-----|---------|--------|
 | Monday   | Review Ch 1-6 | Variables, conditionals, iteration, arrays, functions |
-| Wednesday   | Ch: 7 Plotting | Basic plotting with Makie.jl |
-| Friday   | Ch 8: Basic Fitting | Least squares fitting with LsqFit.jl |
+| Wednesday   | Ch 7: Plotting | Basic plotting with Makie.jl |
+| Friday   | Ch 8: Fitting | Least squares fitting with CurveFit.jl — Lorentzian peak and polariton dispersion |
 
 #### Week 4
 | Day | Chapter | Topics |
 |-----|---------|--------|
-| Monday   | Ch 9: Optimization | Apply least squares fitting to a more complex problem |
-| Wednesday  | Ch 10: Fourier Transforms | FT basics and Fourier transforms with FFTW.jl |
-| Friday  | Review Ch 7-10 | Plotting, fitting, Fourier transforms |
+| Monday   | Ch 9: Fourier transform | FT basics and Fourier transforms with FFTW.jl |
+| Wednesday  | Ch 10: Transfer matrix | Thin-film optics with TransferMatrix.jl |
+| Friday  | Review Ch 7-10 | Plotting, fitting, Fourier transforms, transfer matrix |
