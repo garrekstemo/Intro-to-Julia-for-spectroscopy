@@ -1,6 +1,6 @@
 # Introduction to Julia for Spectroscopy
 
-Tested with Julia version: 1.12.6
+Tested with Julia version: 1.12
 
 This short course is designed to introduce students to the Julia programming language applied to analysis for spectroscopy.
 It is intended for students who have never programmed before, or who have only done a little programming in another language.
